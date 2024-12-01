@@ -23,6 +23,7 @@ local default_config = function()
             bash = { cmd = 'bash', formatter = M.formatter.trim_empty_lines },
             zsh = { cmd = 'zsh', formatter = M.formatter.bracketed_pasting },
             hol = { cmd = 'hol-light', formatter = M.formatter.trim_empty_lines },
+            M2  = { cmd = 'M2', formatter = M.formatter.trim_empty_lines },
         },
         close_on_exit = true,
         scroll_to_bottom_after_sending = true,
