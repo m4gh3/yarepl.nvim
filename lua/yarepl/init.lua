@@ -14,7 +14,7 @@ local default_config = function()
         metas = {
             aichat = { cmd = 'aichat', formatter = M.formatter.bracketed_pasting },
             radian = { cmd = 'radian', formatter = M.formatter.bracketed_pasting_no_final_new_line },
-            ipython = { cmd = 'ipython', formatter = M.formatter.bracketed_pasting },
+            ipython = { cmd = 'ipython --no-autoindent', formatter = M.formatter.bracketed_pasting },
             python = { cmd = 'python', formatter = M.formatter.trim_empty_lines },
             R = { cmd = 'R', formatter = M.formatter.trim_empty_lines },
             -- bash version >= 4.4 supports bracketed paste mode. but macos
